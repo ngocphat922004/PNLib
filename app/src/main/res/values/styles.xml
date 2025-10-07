@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="colorSearchview" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Các thuộc tính của AppTheme khác ở đây -->
+
+        <!-- Chỉnh màu sắc của SearchView -->
+        <item name="android:colorControlNormal">#595959</item> <!-- Màu sắc khi không được chọn -->
+        <item name="android:colorControlActivated">#595959</item> <!-- Màu sắc khi được chọn -->
+        <item name="android:colorControlHighlight">#595959</item> <!-- Màu sắc khi nhấn giữ -->
+    </style>
+</resources>

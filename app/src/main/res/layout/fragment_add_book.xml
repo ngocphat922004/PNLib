@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3"
+    tools:context=".Fragment.Add_book">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ảnh sách"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/imgBook"
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/backgroundaddbook"/>
+
+                <Button
+                    android:id="@+id/btnuploandanh"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="100dp"
+                    android:backgroundTint="#00BCD4"
+                    android:text="Chọn ảnh"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:cornerRadius="15px" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sách"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edttensach"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá sách"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/edtgiasach"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá mượn"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/edtgiamuon"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngôn ngữ"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edtngonngu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quốc gia "
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edtquocgia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lượng"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/edtsoluong"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thể loại"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/edttheloai"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nhà xuất bản"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtnhaxb"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Năm sản xuất"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edtnamsx"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nội dung"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edtnoidung"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/backgroundaddbook"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:paddingLeft="10dp"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"/>
+
+
+            <Button
+                android:id="@+id/btnthemsach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Thêm sách"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="15px"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/themsach"
+        android:icon="@drawable/baseline_library_add_24"
+        android:title="Thêm sách"
+        />
+    <item
+        android:id="@+id/qls"
+        android:icon="@drawable/ic_bookmark"
+        android:title="Quản lý sách" />
+    <item
+        android:id="@+id/qlpm"
+        android:icon="@drawable/ic_home_24"
+        android:title="Quản lý phiếu mượn"
+        />
+    <item
+        android:id="@+id/qlls"
+        android:icon="@drawable/ic_book"
+        android:title="Quản lý loại sách"
+        />
+    <item
+        android:id="@+id/qltv"
+        android:icon="@drawable/ic_person"
+        android:title="Quản lý thành viên" />
+
+        <item android:title="Admin"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/qltt"
+                    android:icon="@drawable/ic_groups_24"
+                    android:title="Quản lý thủ thư"
+                     />
+            </menu>
+        </item>
+
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/top10"
+                    android:icon="@drawable/ic_vertical_align_top"
+                    android:title="Top 10 sách mượn nhiều nhất" />
+
+                <item
+                    android:id="@+id/danhthu"
+                    android:icon="@drawable/ic_attach_money"
+                    android:title="Doanh thu" />
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/doimk"
+                    android:icon="@drawable/ic_vpn_key"
+                    android:title="Đổi mật khẩu" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </menu>
+        </item>
+
+
+</menu>

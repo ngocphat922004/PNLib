@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundphieumuon1"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/tvtinhtrang"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:textSize="18dp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/sophieu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Số phiếu :"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_below="@id/tvtinhtrang"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvsophieu"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:hint="Số phiếu"
+            android:textSize="16dp"
+            android:paddingLeft="1dp"
+            android:gravity="center"
+            android:layout_below="@id/tvtinhtrang"
+            android:textColor="#040404"
+            android:layout_toRightOf="@id/sophieu"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:id="@+id/tennguoimuon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Tên người mượn :"
+        android:textSize="16dp"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:layout_below="@id/sophieu"
+
+        />
+    <TextView
+        android:id="@+id/tvtennguoimuon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:hint="Tên người mượn "
+        android:textSize="15dp"
+        android:textColor="#424242"
+        android:paddingLeft="1dp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/tennguoimuon"
+        android:layout_below="@id/sophieu"
+        />
+    <TextView
+        android:id="@+id/namebookmuon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Tên sách :"
+        android:textSize="16dp"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:layout_below="@id/tennguoimuon"
+        />
+    <TextView
+        android:id="@+id/tvtensachmuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tên sách"
+        android:textSize="15dp"
+        android:paddingLeft="1dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#424242"
+        android:layout_below="@id/tvtennguoimuon"
+        android:layout_toRightOf="@id/sophieu"
+
+        />
+
+    <TextView
+        android:id="@+id/soluong"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Số lượng :"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_below="@id/tvtinhtrang"
+        android:textColor="#424242"
+
+        android:layout_toLeftOf="@id/tvsoluongmuon"
+
+        />
+    <TextView
+        android:id="@+id/tvsoluongmuon"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:hint="Số lượng"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/tvtinhtrang"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>

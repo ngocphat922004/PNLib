@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_vien"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgAvatarBook"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/tvtenbook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên sách"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="22dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/gia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá :"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#424242"/>
+            <TextView
+                android:id="@+id/tvgiabook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/gia"
+                android:hint="Giá sách"
+                android:textColor="#424242"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/soluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Số lượng :"
+                android:textColor="#424242"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvsoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/tvsoluong"
+                android:hint="Số lượng"
+                android:textColor="#424242"
+                android:textSize="15dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
